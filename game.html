@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="css/imgs/icon.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>RAZZLE-DAZZLE TOWER</title>
+	<meta name="author" content="Les4Mousquetaires" />
+	<meta name="description" content="Game combine game of life and space invaders" />
+	<meta name="keywords"  content="Game, space, invaders, future, sf" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/core.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/snap.svg-min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/vendors/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="js/core.js"></script>
+	<script src="js/svgicons-config.js"></script>
+	<script src="js/svgicons.js"></script>
+</head>
+<body>
+<script src="js/tooltip.js"></script>
+	<div id="header">
+		<nav id="header_nav">
+			<ul class="header_ul_l_g">
+	        	<li data-menuanchor="infos"><a href="index.html#infos">Informations</a></li>
+	        	<li data-menuanchor="game"><a href="game.html" class="play">Jouer</a></li>
+	    	</ul>
+	    	<ul class="header_ul_c">
+	  			<img src="css/imgs/logo-dazzle.png" class="logo_header" />
+	  		</ul>
+	    	<ul class="header_ul_r_g">  
+	        	<li data-menuanchor="htp"><a href="index.html#htp">Comment Jouer ?</a></li>
+	        	<li data-menuanchor="team"><a href="index.html#team">Credits</a></li>
+	    	</ul>
+		</nav>
+	</div>
+
+	<div id="header_m">
+		<nav id="header_nav_m">
+			<ul class="header_ul_l_m">
+	        	<li data-menuanchor="infos"><a href="#infos"><i class="fa fa-info-circle fa-2x"></i></a></li>
+	        	<li data-menuanchor="game"><a href="/game" class="play_m"><i class="fa fa-play-circle fa-2x"></i></a></li>
+	    	</ul>
+	    	<ul class="header_ul_c_m">
+	  			<img src="css/imgs/logo-dazzle.png" class="logo_header" />
+	  		</ul>
+	    	<ul class="header_ul_r_m">  
+	        	<li data-menuanchor="htp"><a href="#htp"><i class="fa fa-question-circle fa-2x"></i></a></li>
+	        	<li data-menuanchor="team"><a href="#team"><i class="fa fa-users fa-2x"></i></a></li>
+	    	</ul>
+		</nav>
+	</div>
+
+	<div id="fullpage">
+		<div class="section" id="section0">
+		<div class="game_content">
+			<div id="superContainer1">
+				<div id="container1">
+					<h2 id="container1-4"> niveau 1 / 30</h2>
+						<div id="container1-2">0 $$</div>
+						<div id="score">score : 0</div>
+						<div id="scoreMax"> Meilleur score : 0</div>
+							<div id="container1-3">
+								<div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div><div class="life"></div>
+							</div>
+							<div id="container1-10">
+		
+	</div> 
+						<div id="container1-1-1">
+							<div id="container1-5" onClick="addShooter(); " onmouseover="TagToTip('content1-5')" onmouseout="UnTip()"> 
+							<div id="content1-5">2000 $$</div> 
+							<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
+<g id="Calque_2">
+	
+		<rect x="44.677" y="44.677" transform="matrix(0.6984 -0.7157 0.7157 0.6984 -58.6917 144.1734)" class="path path2" fill="transparent" stroke="#fafafa" stroke-linecap="square" stroke-width="7" stroke-miterlimit="10" width="194.106" height="194.107"/>
+	<line class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" x1="142" y1="241.46" x2="137.729" y2="73.46"/>
+	<polyline class="path pat" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" points="102,183.46 141.73,175.46 182,183.46 	"/>
+	<polyline class="path pat" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" points="123,157.46 113,64.46 137.589,40.46 
+		164,61.46 157,157.46 	"/>
+</g>
+</svg>
+</div>
+
+							<div id="container1-7" onClick="addRate(); " onmouseover="TagToTip('content1-7')" onmouseout="UnTip()"> 
+							<div id="content1-7">200 $$</div>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
+<g id="Calque_2">
+	
+		<rect x="44.677" y="44.677" transform="matrix(0.6984 -0.7157 0.7157 0.6984 -58.6917 144.1734)" class="path path2" fill="transparent" stroke="#fafafa" stroke-linecap="square" stroke-width="7" stroke-miterlimit="10" width="194.106" height="194.107"/>
+	<polyline class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" points="101,130.46 141.729,86.46 183,130.46 	"/>
+	<polyline class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" points="101,152.46 141.729,108.46 183,152.46 	
+		"/>
+	<polyline class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" points="101,173.46 141.729,129.46 183,173.46 	
+		"/>
+	<polyline class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" points="101,194.46 141.729,150.46 183,194.46 	
+		"/>
+</g>
+</svg>
+
+</div>
+
+								
+							
+
+							<div id="container1-8" onClick="addLife();" onmouseover="TagToTip('content1-8')" onmouseout="UnTip()"> 
+							<div id="content1-8">2000 $$</div>
+
+		<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 283.46 283.46" enable-background="new 0 0 283.46 283.46" xml:space="preserve">
+<g id="Calque_2">
+<rect x="57.53" y="51.502" transform="matrix(0.6984 -0.7157 0.7157 0.6984 -56.0395 146.4399)" class="path path2" fill="transparent" stroke="#fafafa" stroke-width="7" stroke-linecap="square" stroke-miterlimit="10" width="176.428" height="176.428"/>
+	<g>
+		<polyline fill="transparent" points="146.186,44.805 146.186,140.969 146.186,235.071 		"/>
+		<path class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" d="M146.186,44.805c0,0,0.875,2.973,1.998,8.175c0.572,2.602,1.197,5.76,1.846,9.383
+			c0.646,3.624,1.296,7.711,1.925,12.17c0.616,4.459,1.207,9.291,1.73,14.4c0.507,5.109,0.991,10.498,1.359,16.072
+			c0.758,11.148,1.121,23.04,1.14,34.932c-0.004,11.892-0.362,23.784-1.114,34.932c-0.362,5.574-0.853,10.962-1.354,16.072
+			c-0.526,5.109-1.116,9.94-1.733,14.399c-0.633,4.46-1.282,8.548-1.932,12.171c-0.652,3.623-1.279,6.782-1.854,9.383
+			c-1.129,5.203-2.01,8.176-2.01,8.176s-0.881-2.973-2.01-8.176c-0.575-2.601-1.202-5.76-1.854-9.383
+			c-0.649-3.623-1.299-7.711-1.932-12.171c-0.617-4.459-1.207-9.29-1.733-14.399c-0.502-5.11-0.992-10.498-1.354-16.072
+			c-0.752-11.148-1.11-23.04-1.114-34.932c0.019-11.892,0.382-23.783,1.14-34.932c0.368-5.574,0.853-10.963,1.359-16.072
+			c0.523-5.11,1.114-9.941,1.73-14.4c0.629-4.459,1.278-8.547,1.925-12.17c0.648-3.623,1.273-6.782,1.846-9.383
+			C145.311,47.778,146.186,44.805,146.186,44.805z"/>
+	</g>
+	<g>
+		<polyline fill="transparent" points="240.961,140.969 146.186,140.969 53.117,139.938 		"/>
+		<path class="path" fill="transparent" stroke="#fafafa" stroke-width="4" stroke-miterlimit="10" d="M240.961,140.969c0,0-2.936,0.875-8.071,1.999c-2.568,0.572-5.688,1.197-9.265,1.846
+			c-3.577,0.646-7.613,1.295-12.016,1.924c-4.402,0.616-9.172,1.207-14.217,1.73c-5.045,0.508-10.365,0.991-15.868,1.36
+			c-11.007,0.757-22.748,1.121-34.488,1.14l-2.312-0.023l-2.199-0.036c-1.466-0.033-2.931-0.066-4.392-0.101
+			c-2.924-0.066-5.834-0.185-8.723-0.301c-5.776-0.242-11.459-0.6-16.958-1.027c-5.499-0.424-10.813-0.973-15.853-1.53
+			c-5.039-0.582-9.801-1.225-14.197-1.891c-4.396-0.682-8.424-1.376-11.994-2.064c-3.57-0.692-6.681-1.354-9.243-1.958
+			c-5.124-1.186-8.049-2.1-8.049-2.099s2.945-0.848,8.093-1.92c2.575-0.547,5.7-1.139,9.284-1.752
+			c3.584-0.609,7.627-1.215,12.037-1.798c4.409-0.568,9.185-1.105,14.235-1.576c5.05-0.446,10.375-0.877,15.882-1.178
+			c5.507-0.306,11.197-0.538,16.977-0.651c2.89-0.053,5.803-0.106,8.727-0.108c1.462-0.001,2.927-0.002,4.393-0.003l4.291,0.02
+			c11.74,0.019,23.481,0.383,34.488,1.14c5.503,0.369,10.823,0.853,15.868,1.359c5.045,0.524,9.814,1.114,14.217,1.731
+			c4.402,0.629,8.438,1.277,12.016,1.924c3.577,0.648,6.696,1.273,9.265,1.846C238.025,140.094,240.961,140.97,240.961,140.969z"/>
+	</g>
+</g>
+</svg>
+							</div>
+
+					<div id="container1-5"> 
+						<a id="play" type="button"  onclick="launch();" >
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="110px"
+	 height="110px" viewBox="0 0 96 99.818" enable-background="new 0 0 96 99.818" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<g display="inline">
+		<path d="M26.122,17.952c-1.292-0.604-2.861-0.807-2.861,1.198V49.51c0,1.85,1.415,2.106,2.87,1.248l20.57-14.811
+			c1.55-1.139,1.051-2.288-0.133-3.263L26.122,17.952z"/>
+		<rect x="51.412" y="18.412" width="7.938" height="31.75"/>
+		<rect x="67.288" y="18.412" width="7.939" height="31.75"/>
+	</g>
+</g>
+<g id="Calque_2">
+	
+		<rect x="26.977" y="31.983" class="path path2" transform="matrix(0.7078 0.7064 -0.7064 0.7078 52.4364 -18.8204)" fill="transparent" stroke="#fafafa" stroke-linecap="square" stroke-width="2" stroke-miterlimit="10" width="43.982" height="43.982"/>
+	<polygon class="path" fill="transparent" stroke="#fafafa" stroke-width="2" stroke-miterlimit="10" points="35.436,43.682 49.616,53.973 
+		35.436,64.1 	"/>
+	<line fill="#FFFFFF" class="path" stroke="#fafafa" stroke-width="2" stroke-miterlimit="10" x1="55.292" y1="44.977" x2="55.292" y2="63.048"/>
+	<line fill="#FFFFFF" class="path" stroke="#fafafa" stroke-width="2" stroke-miterlimit="10" x1="65.584" y1="44.977" x2="65.584" y2="63.048"/>
+</g>
+</svg>
+
+					</a>
+					</div>
+
+						</div>
+					<div id="container1-1-2">
+						<script type="text/javascript" src="js/main.js"></script>
+					</div>
+					<div id="container1-1-3">
+					</div>
+					<div id="container2">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+		</div>
+	</div>
+</body>
+</html>

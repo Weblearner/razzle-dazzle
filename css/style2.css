@@ -1,0 +1,489 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+  font-family: 'codropsicons';
+  src:url('/fonts/codropsicons/codropsicons.eot');
+  src:url('/fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/codropsicons/codropsicons.woff') format('woff'),
+    url('/fonts/codropsicons/codropsicons.ttf') format('truetype'),
+    url('/fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.boss
+{
+  display: inline-block;
+  margin-top: -10px;
+  width: 25px;
+  height: 25px;
+  z-index: 99;
+}
+
+.life
+{
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border: solid 1px #3FC380;
+  background-color:#3FC380;
+  
+}
+
+.death
+{
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border: solid 1px #3FC380;
+  background-color: #e74c3c;
+}
+.lifeBoss
+{
+  width: 2px;
+  height: 2px;
+  display: inline-block;
+  border: solid 1px red;
+  background-color:red;
+  
+}
+
+.deathBoss
+{
+  width: 2px;
+  height: 2px;
+  display: inline-block;
+ 
+ 
+  
+}
+
+#superContainer1
+{
+  background-color: transparent;
+  width: auto;
+  font-size: 15px;
+  min-width: 480px;
+  text-align: center;
+  max-height: 1800px;
+  min-height: 480px;
+  height: 100%;
+  color: #fafafa;
+    
+}
+#display
+{
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+#container1
+{
+  
+  margin-top: 10px;
+ 
+}
+
+#container1-8,#container1-5,#container1-7
+{
+  display: block;
+
+}
+#container2
+{
+  margin-bottom: 2%;
+}
+
+#container1-4 {
+  color: #fafafa;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#container1-2
+{
+  width: 400px; 
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'AROMAL' !important;
+}
+
+#container1-1-1
+{
+    
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.upgrade
+{
+  border: 2px solid white;
+  display: block;
+  padding: 8px;
+  display: block;
+  color: white;
+  transition : all 0.4s ease-out;
+  
+}
+
+.upgrade:hover
+{
+
+  border: 2px solid white;
+  display: block;
+  margin-top: 0px;
+  padding: 10px;
+  color:#8e44ad;
+  border-color:#8e44ad;
+  transition : all 0.4s ease-out;
+}
+#add1
+{ 
+
+  background-image: url('../image/sword.png');
+
+  opacity: 0.25;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  margin left: 25px;
+  font-size: 0px;
+  transition : all 0.2s ease-out;
+}
+  #add1:hover
+{
+  background: none;
+
+  width: 100px;
+  height: 100px;
+  margin-left: 0px;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 10px;
+  opacity:1;
+  transition : all 0.3s ease-out;
+}
+
+#add2 
+{ 
+
+  background-image: url('../image/speed.png');
+  opacity: 0.25;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  margin left: 25px;
+  font-size: 0px;
+  transition : all 0.2s ease-out;
+}
+  #add2:hover
+{
+  background: none;
+
+  width: 100px;
+  height: 100px;
+  margin-left: 0px;
+  color: white;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  font-size: 10px;
+  opacity:1;
+  z-index: -1;
+  transition : all 0.3s ease-out;
+}
+
+#add3
+{ 
+
+  background-image: url('../image/health.png');
+  opacity: 0.25;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  font-size: 0px;
+  tr
+  margin left: 25px;ansition : all 0.2s ease-out;
+  margin-bottom: 50px;
+}
+  #add3:hover
+{
+  background: none;
+
+  width: 100px;
+  height: 100px;
+  color: white;
+  margin-left: 0px;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  font-size: 10px;
+  opacity:1;
+  transition : all 0.3s ease-out;
+}
+
+
+
+#container1-1-2
+{ 
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+ 
+  
+}
+
+#container1-1-3
+{ 
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+  text-align: left;
+ 
+  
+}
+#container1-3
+{
+  margin-bottom: 20px;
+}
+
+#container2
+{
+  margin-top: 50px;
+  
+}
+
+#container1-8 {
+  cursor: pointer;
+  color: #fafafa;
+}
+
+#container1-7 {
+  cursor: pointer;
+  color: #fafafa;
+}
+
+.path2 {
+  fill:transparent !important;
+  -webkit-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.path2:hover {
+  fill:#D56937 !important;
+  -webkit-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.path3 {
+  fill:transparent !important;
+  -webkit-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.path3:hover {
+  fill: #2cc36b !important;
+  -webkit-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+#container1-5 {
+  cursor: pointer;
+  color: blue;
+  fill : red !important;
+}
+
+
+
+
+
+#play
+{
+
+}
+
+#pause
+{ 
+
+}
+
+
+#reset
+{
+  margin: 10px;
+  background-color : green;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  color: #fff;
+  margin: auto;
+}
+
+.divExplode
+{
+  display: inline-block;
+  margin-top: -10px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-image: url('../image/explosion.png');
+  background-size: cover;
+  transition : background-image 0.3s linear;
+
+}
+
+
+.div1
+{
+  
+  display: inline-block;
+  margin-top: -10px;
+
+  width: 25px;
+  height: 25px;
+  background-image: url('../image/monster1.png');
+  background-size: 100%;
+} 
+
+ 
+
+.div2
+{
+  
+
+  display: inline-block;
+  margin-top: -10px;
+  width: 25px;
+  height: 25px;
+ transition : background-image 0.1s ease-out;
+} 
+
+.div3
+{
+  
+  display: inline-block;
+  margin-top: -10px;
+
+  width: 25px;
+  height: 25px;
+  background-image: url('../image/tower.png');
+  background-size: 100%;
+
+}
+.div4
+{
+  
+  display: inline-block;
+  margin-top: -10px;
+
+  width: 25px;
+  height: 25px;
+  background-image: url('../image/bullet.png');
+  background-size: 100%;
+} 
+
+.div5
+{
+  
+  display: inline-block;
+  margin-top: -10px;
+
+  width: 25px;
+  height: 25px;
+  background-image: url('../image/monster2.png');
+  background-size: 100%;
+} 
+
+.div6
+{
+  
+  display: inline-block;
+  margin-top: -10px;
+
+  width: 25px;
+  height: 25px;
+  background-image: url('../image/monster3.png');
+  background-size: 100%;
+
+} 
+
+.div7
+{
+  
+  display: inline-block;
+  margin-top: -10px;
+
+  width: 25px;
+  height: 25px;
+  background-image: url('../image/monster4.png');
+  background-size: 100%;
+
+} 
+
+#score {
+  text-transform: uppercase;
+}
+
+#scoreMax {
+  text-transform: uppercase;
+}
+
+
+@-webkit-keyframes animation {
+  0% {transform: scaleY(1);}
+  20% {transform: scaleY(0);}
+  40% {transform: scaleY(1);}
+  100% {transform: scaleY(1);}
+}
+
+.si-icons span {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 40px 30px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.si-icons-hover span {
+  width: 128px;
+  height: 128px;
+  margin: 50px 40px;
+}
+
+/* Fallback for browsers that don't support SVG - Generated with http://iconizr.com/ */
+
+.no-svg .si-icon-play { background-image: url('css/imgs/play.png') }
+-
+
+/* alternatively you can define that there is no background image when SVG is supported instead of using .no-svg */
+.header_ul_r {
+  width:35% !important;
+}
